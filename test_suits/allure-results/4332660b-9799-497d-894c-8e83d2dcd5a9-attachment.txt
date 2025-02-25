@@ -1,0 +1,6 @@
+[32mINFO    [0m TestAPI:conftest.py:31 Initializing WebDriver...
+[32mINFO    [0m TestAPI:conftest.py:35 WebDriver initialized successfully.
+[32mINFO    [0m TestAPI:conftest.py:39 Browser window maximized and implicit wait set.
+[32mINFO    [0m TestAPI:test_api.py:15 Starting test: test_get_users
+[32mINFO    [0m TestAPI:test_api.py:18 GET /users - Status Code: 200
+[32mINFO    [0m TestAPI:test_api.py:21 Successfully validated GET /users response.

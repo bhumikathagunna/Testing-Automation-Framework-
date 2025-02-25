@@ -1,0 +1,6 @@
+2025-02-26 01:28:23,915 - TestAPI - INFO - Initializing WebDriver...
+2025-02-26 01:28:27,051 - TestAPI - INFO - WebDriver initialized successfully.
+2025-02-26 01:28:27,435 - TestAPI - INFO - Browser window maximized and implicit wait set.
+2025-02-26 01:28:27,437 - TestAPI - INFO - Starting test: test_get_users
+2025-02-26 01:28:28,309 - TestAPI - INFO - GET /users - Status Code: 200
+2025-02-26 01:28:28,310 - TestAPI - INFO - Successfully validated GET /users response.

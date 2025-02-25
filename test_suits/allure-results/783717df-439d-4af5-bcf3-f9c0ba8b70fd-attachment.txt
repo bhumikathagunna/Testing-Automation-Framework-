@@ -1,0 +1,6 @@
+[32mINFO    [0m TestAPI:test_api.py:67 Starting test: test_delete_user
+[32mINFO    [0m TestAPI:test_api.py:71 DELETE /users/1 - Status Code: 200
+[32mINFO    [0m TestAPI:test_api.py:74 Successfully deleted user.
+[32mINFO    [0m TestAPI:conftest.py:45 Quitting WebDriver.
+[32mINFO    [0m TestAPI:conftest.py:47 WebDriver closed successfully.
+[32mINFO    [0m TestAPI:conftest.py:25 Tearing down the logger.
