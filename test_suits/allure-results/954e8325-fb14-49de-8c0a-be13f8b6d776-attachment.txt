@@ -1,9 +1,0 @@
-2025-02-26 01:28:31,306 - TestLogin - INFO - Initializing WebDriver...
-2025-02-26 01:28:32,435 - TestLogin - INFO - WebDriver initialized successfully.
-2025-02-26 01:28:32,813 - TestLogin - INFO - Browser window maximized and implicit wait set.
-2025-02-26 01:28:32,814 - TestLogin - INFO - Navigating to login page.
-2025-02-26 01:28:37,542 - TestLogin - INFO - Successfully entered username.
-2025-02-26 01:28:37,576 - TestLogin - INFO - Successfully entered password.
-2025-02-26 01:28:38,674 - TestLogin - INFO - Quitting WebDriver.
-2025-02-26 01:28:38,757 - TestLogin - INFO - WebDriver closed successfully.
-2025-02-26 01:28:38,758 - TestLogin - INFO - Tearing down the logger.

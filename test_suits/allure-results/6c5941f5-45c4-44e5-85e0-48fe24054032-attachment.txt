@@ -1,0 +1,10 @@
+[32mINFO    [0m TestLogin:conftest.py:31 Initializing WebDriver...
+[32mINFO    [0m TestLogin:conftest.py:35 WebDriver initialized successfully.
+[32mINFO    [0m TestLogin:conftest.py:39 Browser window maximized and implicit wait set.
+[32mINFO    [0m TestLogin:login_page.py:18 Navigating to login page.
+[32mINFO    [0m TestLogin:login_page.py:24 Successfully entered username.
+[32mINFO    [0m TestLogin:login_page.py:33 Successfully entered password.
+[32mINFO    [0m TestLogin:login_page.py:42 Successfully clicked login button.
+[32mINFO    [0m TestLogin:conftest.py:45 Quitting WebDriver.
+[32mINFO    [0m TestLogin:conftest.py:47 WebDriver closed successfully.
+[32mINFO    [0m TestLogin:conftest.py:25 Tearing down the logger.

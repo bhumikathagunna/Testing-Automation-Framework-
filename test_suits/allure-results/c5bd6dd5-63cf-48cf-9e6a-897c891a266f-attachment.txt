@@ -1,6 +1,0 @@
-2025-02-26 01:28:30,223 - TestAPI - INFO - Starting test: test_delete_user
-2025-02-26 01:28:31,222 - TestAPI - INFO - DELETE /users/1 - Status Code: 200
-2025-02-26 01:28:31,222 - TestAPI - INFO - Successfully deleted user.
-2025-02-26 01:28:31,224 - TestAPI - INFO - Quitting WebDriver.
-2025-02-26 01:28:31,303 - TestAPI - INFO - WebDriver closed successfully.
-2025-02-26 01:28:31,304 - TestAPI - INFO - Tearing down the logger.

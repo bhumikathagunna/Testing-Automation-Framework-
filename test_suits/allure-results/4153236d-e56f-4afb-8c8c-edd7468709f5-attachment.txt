@@ -1,3 +1,0 @@
-2025-02-26 01:28:29,284 - TestAPI - INFO - Starting test: test_update_user
-2025-02-26 01:28:30,218 - TestAPI - INFO - PUT /users/1 - Status Code: 200
-2025-02-26 01:28:30,218 - TestAPI - INFO - Successfully updated user.

@@ -33,3 +33,15 @@ class Helper:
             print(f"Error occurred while sending keys: {e}")
             raise
             return False
+    
+    @staticmethod
+    def element_present(driver, xpath, timeout=10):
+        """Checks whether an element is present within the given timeout."""
+        try:
+            element = WebDriverWait(driver, timeout).until(
+                EC.presence_of_element_located((By.XPATH, xpath))
+            )
+            return True  
+        except Exception as e:
+            print(f"Element not present: {e}")
+            return False  

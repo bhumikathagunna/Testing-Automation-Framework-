@@ -14,6 +14,7 @@ class TestLogin(BaseTest):
 
     def test_valid_login(self):
         login_page = LoginPage(self.driver, self.logger) 
-        assert login_page.login("practice", "SuperSecretPassword!") 
+        assert login_page.login("student", "Password1234") 
+        assert login_page.is_login_successfull()
 
     

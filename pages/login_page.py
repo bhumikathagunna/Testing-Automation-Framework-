@@ -4,8 +4,9 @@ class ElementMap:
     """Stores XPaths for elements on the Login page"""
     USERNAME_XPATH = "//input[@name='username']"
     PASSWORD_XPATH = "//input[@name='password']"
-    LOGIN_BUTTON_XPATH = "//button[text()='Login']"
+    LOGIN_BUTTON_XPATH = "//button[text()='Submit']"
     ERROR_MESSAGE_XPATH = "//div[@class='error']"  
+    login_successfull_message = "//*[text()='Logged In Successfully']"
   
 
 class LoginPage(Helper):
@@ -16,7 +17,7 @@ class LoginPage(Helper):
         self.logger = logger
         self.element_map = ElementMap()
         self.logger.info("Navigating to login page.")
-        self.driver.get('https://practice.expandtesting.com/login')
+        self.driver.get('https://practicetestautomation.com/practice-test-login/')
     
     def enter_username(self, username):
         """Enters the username in the username field"""
@@ -57,3 +58,14 @@ class LoginPage(Helper):
         self.enter_password(password)
         self.click_login_button()
         return True
+
+    def is_login_successfull(self):
+        if self.element_present(self.driver, ElementMap.login_successfull_message):
+            self.logger.info('Login Successfull')
+            return True
+        else:
+            self.logger.info('Login Failed')
+            return False
+        
+        
+

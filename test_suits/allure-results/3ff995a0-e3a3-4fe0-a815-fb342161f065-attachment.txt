@@ -1,0 +1,3 @@
+2025-02-26 09:18:18,169 - TestAPI - INFO - Starting test: test_create_user
+2025-02-26 09:18:19,348 - TestAPI - INFO - POST /users - Status Code: 201
+2025-02-26 09:18:19,349 - TestAPI - INFO - Successfully created new user.
