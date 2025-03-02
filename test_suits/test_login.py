@@ -2,8 +2,6 @@ import pytest
 import sys
 import os
 
-
-
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
 
 from pages.login_page import LoginPage  
@@ -17,4 +15,4 @@ class TestLogin(BaseTest):
         assert login_page.login("student", "Password123") 
         assert login_page.is_login_successfull()
 
-    
+
