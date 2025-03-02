@@ -48,10 +48,14 @@ pip install -r requirements.txt
 ## Running Tests
 
 To run all tests, use the following command:
-pytest 
+```bash
+pytest
+```
 
 To run a specific test file, use:
+```bash
 pytest path/to/test_file.py
+```
 
 
 ## Test Cases
@@ -68,7 +72,11 @@ pytest path/to/test_file.py
 ## Generate Allure Report
 To generate an Allure report, follow these steps:
 Run tests with Allure:
+```bash
 pytest --alluredir=allure-results
+```
 
 Generate the report:
+```bash
 allure serve allure-results
+```
